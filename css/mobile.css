@@ -1,0 +1,84 @@
+@media (max-width: 575.98px) {
+    .hero {
+        background: url(/img/bg_hero_mobile.png);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .mobile-hero {
+        margin-top: -95px;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+        margin-top: -35px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    .impact-phrase h3 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .bb-product-img {
+        display: none;
+    }
+    .faq {
+        height: 100vh;
+    }
+    footer p {
+        margin: 0 50px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .benefits {
+        height: auto;
+        background-color: #F9F9F9;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .business-benefits {
+        height: auto!important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-bottom: 5rem !important;
+    }
+    .bb-product-img {
+        margin-bottom: 10%;
+        margin-left: 5%;
+    }
+    .business-benefits {
+        height: auto!important;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .business-benefits {
+        height: 70vh;
+    }
+    
+    .bb-product-img img {
+        width: 490px !important;
+        height: auto;
+        margin-left: -25%;
+    }
+}
+
+@media (max-width: 1399.98px) {
+    .bb-product-img img {
+        width: 590px;
+        height: auto;
+    }
+}

@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Fredoka', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.hero {
+    background: url(/img/bg-hero.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 12vh;
+}
+
+.btn-positive {
+    font-family: 'Fredoka', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    padding: 15px;
+    width: 203px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 300px;
+    color: #005900;
+}
+
+.btn-negative {
+    font-family: 'Fredoka', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    padding: 15px;
+    width: 203px;
+    height: 50px;
+    background: #34AA2F;
+    border-radius: 300px;
+    color: #FFFFFF;
+}
+
+.btn-negative {
+    font-family: 'Fredoka', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+    background: #005900;
+    border-radius: 300px;
+    color: #FFFFFF;
+}
+
+.impact-phrase {
+    background: url(/img/featured-phrase-img.png), #34AA2F;
+    background-blend-mode: hard-light, normal;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.impact-phrase h3 {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.benefits {
+    height: 90vh;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.benefits h2 {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #005900;
+}
+
+.benefits-card h3 {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #005900;
+}
+
+.benefits-card p {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2F372D;
+}
+
+.testimonial {
+    height: 70vh;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.testimonial-img img {
+    max-height: 300px;
+}
+
+.benefit-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.business-benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: #FFFFFF;
+}
+
+.business-benefits-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.business-benefits h3 {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    letter-spacing: 0.02em;
+    color: #005900;
+}
+
+.business-benefits-item p {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    text-align: left;
+    letter-spacing: 0.02em;
+    color: #2F372D;
+}
+
+.business-benefits-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.business-benefits-item img {
+    margin-right: 1.5rem;
+}
+
+.business-benefits-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    background-color: #006001;
+}
+
+.products h2 {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #ffff;
+}
+
+.products h3 {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #ffff;
+}
+
+.products h5 {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    text-align: left;
+    letter-spacing: 0.02em;
+    color: #005900;
+}
+
+.products p {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2F372D;
+}
+
+.products-list {
+    justify-content: space-around;
+}
+
+.card {
+    width: 420px;
+    height: auto;
+}
+
+.price-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.discount-tag {
+    width: 54px;
+    height: 30px;
+    background: #FFF500;
+    border-radius: 10px;
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #005900;
+    margin-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+
+.price {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #005900;
+}
+
+.carousel-item {
+    width: auto;
+    max-width: 100%;
+    padding: 0 20%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+}
+
+.testimonial h2 {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #005900;
+}
+
+.testimonial p {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2F372D;
+}
+
+.testimonial span {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #005900;
+}
+
+.faq {
+    background: url(/img/bg-faq.png), #21261F;
+    background-blend-mode: hard-light, normal;
+    height: 80vh;
+    background-size: cover;
+    background-position: right center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.faq h3 {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.faq h5 {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #006001;
+}
+
+.faq p {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2F372D;
+}
+
+
+button:not(.collapsed)::after {
+    background-image: url(/img/up-icon.svg);
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    background-image: url(/img/down-icon.svg);
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+
+.accordion {
+    --bs-accordion-color: #000;
+    --bs-accordion-bg: #fff;
+    --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+    --bs-accordion-border-color: var(--bs-border-color);
+    --bs-accordion-border-width: 1px;
+    --bs-accordion-border-radius: 0.375rem;
+    --bs-accordion-inner-border-radius: calc(0.375rem - 1px);
+    --bs-accordion-btn-padding-x: 1.25rem;
+    --bs-accordion-btn-padding-y: 1rem;
+    --bs-accordion-btn-color: var(--bs-body-color);
+    --bs-accordion-btn-bg: var(--bs-accordion-bg);
+    --bs-accordion-btn-icon: url(/img/up-icon.svg);
+    --bs-accordion-btn-icon-width: 1.25rem;
+    --bs-accordion-btn-icon-transform: rotate(-180deg);
+    --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
+    --bs-accordion-btn-active-icon: url(/img/down-icon.svg);
+    --bs-accordion-btn-focus-border-color: #D7FAD6;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-body-padding-x: 1.25rem;
+    --bs-accordion-body-padding-y: 1rem;
+    --bs-accordion-active-color: #34AA2F;
+    --bs-accordion-active-bg: #e7f1ff;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: #d7fad642;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background: #005900;
+}
+
+footer p {
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
